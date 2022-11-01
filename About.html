@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<title>ValorLeaks Official Website</title>
+<style>
+* {
+  box-sizing: border-box;
+}   
+/* Font */
+@font-face {
+   font-family: myFirstFont;
+   src: url(Valo.ttf);
+}
+* {
+   font-family: myFirstFont;
+}
+body {
+  font-family: myFirstFont;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url(Valorant.png);
+  background-position: center;
+}
+.header h1 {
+  font-size: 80px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(24, 6, 6);
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+@media (max-width: 800px) {
+  .side, .main {
+    flex: 100%;
+  }
+}
+.box {
+  background-color: rgb(32, 4, 4);
+  min-width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  color: rgb(229, 231, 231);
+}
+.footer {
+  padding: 200px;
+  text-align: center;
+  background: #ddd;
+}
+@media screen and (max-width: 700px) {
+  .content {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .content {
+    flex: 100%;
+  }
+}
+.fa:hover { 
+    opacity: 0.6;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+}
+.area {
+  padding: 100px;
+  text-align: center;
+  background-image: url(Icebox.jpg);
+  background-position: center;
+}
+
+.content{
+    background-image: url(VCT.png);
+    background-position: center;
+    display:flex;
+    flex:50%;
+    padding: 100px;
+    font-size:10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="color:whitesmoke;">ValorLeaks</h1>
+  <p style="color:whitesmoke;">Valorant Datamining & Info</p>
+</div>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Tour.html">Tournaments</a>
+      <a href="Roster.html">Rostermania</a>
+      <a href="#Socials">Socials</a>
+      <a href="About.html">About</a>
+</div>
+</div>
+<a href="CSMain.html">Home</a>
+</div>
+<div class="area">
+  <h1 style="color:rgb(255, 255, 255)">About ValorLeaks</h1>
+</div>
+<div class="content">
+    <h1>ValorLeaks Q&A</h1><br>
+        <h1>|| What's the purpose of ValorLeaks? <br><br>
+        ./ ValorLeaks aims to provide fast and accurate information about VALORANT. This includes information about VALORANT Champions Tour, Skins, Patches, PBE, and of course, Leaks!<br><br><br>
+         || Where else could we see posts apart from ValorLeaks' website? <br><br>
+        ./ We have social media accounts! Feel free to check them out by clicking the Socials button in the dropdown menu of the webpage! <br><br><br>
+        || Can I get a free Riot Gun Buddy? <br><br>
+        ./ In your dreams, LOL.<br><br><br>
+        || Who made this webpage?<br><br>
+        ./ Yours truly, Ethan Gabriel A. Rubio (zinu) from 9-Pinatubo !!</h1>
+</div>
+<div class="footer">
+    <h2 id="Socials">Socials</h2>
+  <a href="twitter.com/ValorLeaks" class="fa fa-twitter"></a>
+  <a href="https://www.youtube.com/channel/UCtktT28R55pnf25zINI9aJw" class="fa fa-youtube"></a>
+  <p>&copy; ValorLeaks 2022</p>
+</div>
+</body>
+</html>
